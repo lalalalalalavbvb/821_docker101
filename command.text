@@ -1,0 +1,8 @@
+docker -v
+docker ps
+docker ps --all
+docker run busybox ping google.com
+docker stop id
+docker rm id
+docker run nginx
+docker run -p 80:80 nginx
